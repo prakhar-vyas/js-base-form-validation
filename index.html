@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" id="form" reset();>
+       <div><img src="./images/askus.png" alt="" /></div>
+        <div class="details">
+          <h1>Get in touch</h1>
+          <input type="text" placeholder="Name" id="name">
+          <input type="email" placeholder="Email" id="email">
+          <h2 id="emailerror"></h2>
+          <input type="text" placeholder="Subject" id="subject">
+          <textarea name="msg" id="message" cols="50" rows="7" placeholder="Write your message..."></textarea>
+          <h2 id="messageerror"></h2>
+          <button class="btn" id="butn" onclick="sendemail()">Send Email</button>
+        </div>
+      </form>
+    </div>
+    
+    <script src="form.js"></script>
+  </body>
+</html>
